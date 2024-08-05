@@ -14,7 +14,7 @@ def password_generator():
 
     random.shuffle(password) # it shuffle the password value
 
-    password = "" .join(password)
+    password = "" .join(password) # i converts the list to one line string with using the empty string
     print(password)
 
 option = input("Do you want to generate a password automatically ?  (Yes/No): ")
